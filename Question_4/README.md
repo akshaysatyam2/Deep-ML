@@ -22,10 +22,8 @@ The provided solution iterates over the matrix based on the specified `mode` to 
 
 ### Logic:
 1. **Dimension Extraction:** The function retrieves the number of rows `m` and the number of columns `n`.
-2. **Row Mode:** If the mode is "row", the outer loop iterates through each row. The inner loop sums all elements in that row. It then divides the sum by `m` to find the average, appending it to the `means` list.
-3. **Column Mode:** If the mode is "column", the outer loop iterates through each column index. The inner loop traverses down the rows for that specific column, summing the elements. It then divides the sum by `n` and appends it to `means`.
-
-*(Note: There is a logic flaw in this calculation for non-square matrices. For row means, the sum should be divided by the number of elements in the row, which is `n`. For column means, the sum should be divided by the number of elements in the column, which is `m`.)*
+2. **Row Mode:** If the mode is "row", the outer loop iterates through each row. The inner loop sums all elements in that row. It then divides the sum by `n` to find the average, appending it to the `means` list.
+3. **Column Mode:** If the mode is "column", the outer loop iterates through each column index. The inner loop traverses down the rows for that specific column, summing the elements. It then divides the sum by `m` and appends it to `means`.
 
 ### Complexity:
 - **Time Complexity:** $O(m \times n)$ where $m$ is the number of rows and $n$ is the number of columns, because every element is visited once.
