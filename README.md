@@ -11,3 +11,4 @@ This repository is organized by problem. Each problem has its own dedicated fold
 ## Questions
 
 - [Question 1: Matrix-Vector Dot Product](./Question_1)
+- [Question 2: Transpose of a Matrix](./Question_2)
