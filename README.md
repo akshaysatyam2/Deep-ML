@@ -13,3 +13,4 @@ This repository is organized by problem. Each problem has its own dedicated fold
 - [Question 1: Matrix-Vector Dot Product](./Question_1)
 - [Question 2: Transpose of a Matrix](./Question_2)
 - [Question 3: Reshape Matrix](./Question_3)
+- [Question 4: Calculate Mean by Row or Column](./Question_4)
