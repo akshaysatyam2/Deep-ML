@@ -1,0 +1,30 @@
+# Matrix Transformation
+
+## Problem Statement
+Write a Python function that transforms a matrix `A` using transformation matrices `T` and `S`. The transformation formula is $T^{-1} A S$. 
+
+The function must:
+1. Check if the transformation is mathematically possible given the matrix dimensions.
+2. Ensure both matrices `T` and `S` are invertible (they must be square and have non-zero determinants).
+3. Return the transformed matrix as a Python list of lists, or return `-1` if the transformation is not possible or if either `T` or `S` is not invertible.
+
+## Example
+**Input:**
+```python
+A = [[1, 2], [3, 4]]
+T = [[2, 0], [0, 2]]
+S = [[1, 1], [0, 1]]
+```
+**Output:**
+```python
+[[0.5, 1.5], [1.5, 3.5]]
+```
+
+## Code Explanation
+The transformation follows the formula: $T^{-1} A S$.
+1. Extract the dimensions of all three matrices `A`, `T`, and `S`.
+2. Check if the matrices dimensions permit multiplication. For $T^{-1} A$, the columns of $T^{-1}$ (which is equal to rows of $T$) must match the rows of $A$. For the resulting matrix multiplied by $S$, its columns (which is equal to columns of $A$) must match the rows of $S$.
+3. Check if matrices `T` and `S` are invertible. A matrix is invertible if and only if it is a square matrix and its determinant is non-zero. The condition `T_m != T_n` or `S_m != S_n` checks for square matrices.
+4. If valid, the inverse of `T` is computed using `numpy.linalg.inv(T)`.
+5. The result of the multiplication $T^{-1} A S$ is calculated using the `@` operator.
+6. Finally, the transformed numpy array is converted back to a list of lists using `.tolist()` and returned.
