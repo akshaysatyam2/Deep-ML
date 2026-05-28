@@ -4,12 +4,12 @@
 **Topic:** Linear Algebra  
 **Link:** [https://www.deep-ml.com/problems/1](https://www.deep-ml.com/problems/1)
 
-## Problem Description
+## Problem Statement
 Write a Python function that computes the dot product of a matrix and a vector. The function should return a list representing the resulting vector if the operation is valid, or -1 if the matrix and vector dimensions are incompatible. A matrix (a list of lists) can be dotted with a vector (a list) only if the number of columns in the matrix equals the length of the vector. For example, an n x m matrix requires a vector of length m.
 
 You may assume the input matrix is a valid (non-jagged) list of lists and the vector is a non-empty list.
 
-### Example:
+## Example
 **Input:**
 `a = [[1, 2], [2, 4]], b = [1, 2]`
 
@@ -19,7 +19,7 @@ You may assume the input matrix is a valid (non-jagged) list of lists and the ve
 **Reasoning:**
 Row 1: (1 * 1) + (2 * 2) = 1 + 4 = 5; Row 2: (2 * 1) + (4 * 2) = 2 + 8 = 10
 
-## Solution Explanation
+## Code Explanation
 The provided solution computes the dot product manually by iterating through each row of the matrix `a` and summing the element-wise products with the vector `b`.
 
 ### Logic:

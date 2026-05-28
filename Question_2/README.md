@@ -4,10 +4,10 @@
 **Topic:** Linear Algebra  
 **Link:** [https://www.deep-ml.com/problems/2](https://www.deep-ml.com/problems/2)
 
-## Problem Description
+## Problem Statement
 Write a Python function that computes the transpose of a given 2D matrix. The transpose of a matrix is formed by turning its rows into columns and columns into rows. For an $m \times n$ matrix, the transpose will be an $n \times m$ matrix.
 
-### Example:
+## Example
 **Input:**
 `a = [[1, 2, 3], [4, 5, 6]]`
 
@@ -17,7 +17,7 @@ Write a Python function that computes the transpose of a given 2D matrix. The tr
 **Reasoning:**
 The input is a 2x3 matrix. The transpose swaps rows and columns: the first row `[1, 2, 3]` becomes the first column, and the second row `[4, 5, 6]` becomes the second column, resulting in a 3x2 matrix.
 
-## Solution Explanation
+## Code Explanation
 The provided solution handles the transposition manually by creating a new matrix and copying the elements over with swapped indices.
 
 ### Logic:

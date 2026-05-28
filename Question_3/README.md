@@ -4,10 +4,10 @@
 **Topic:** Linear Algebra  
 **Link:** [https://www.deep-ml.com/problems/3](https://www.deep-ml.com/problems/3)
 
-## Problem Description
+## Problem Statement
 Write a Python function that reshapes a given matrix into a specified shape. If it can't be reshaped, return an empty list `[]`.
 
-### Example:
+## Example
 **Input:**
 `a = [[1,2,3,4],[5,6,7,8]], new_shape = (4, 2)`
 
@@ -17,7 +17,7 @@ Write a Python function that reshapes a given matrix into a specified shape. If 
 **Reasoning:**
 The given matrix is reshaped from 2x4 to 4x2.
 
-## Solution Explanation
+## Code Explanation
 The provided solution performs the reshaping operation manually by flattening the original matrix and then filling a new matrix of the target shape.
 
 ### Logic:

@@ -4,10 +4,10 @@
 **Topic:** Linear Algebra  
 **Link:** [https://www.deep-ml.com/problems/5](https://www.deep-ml.com/problems/5)
 
-## Problem Description
+## Problem Statement
 Write a Python function that multiplies a matrix by a scalar and returns the result.
 
-### Example:
+## Example
 **Input:**
 `matrix = [[1, 2], [3, 4]], scalar = 2`
 
@@ -17,7 +17,7 @@ Write a Python function that multiplies a matrix by a scalar and returns the res
 **Reasoning:**
 Each element of the matrix is multiplied by the scalar.
 
-## Solution Explanation
+## Code Explanation
 The provided solution modifies the given matrix in-place by iterating through each element and multiplying it by the provided scalar.
 
 ### Logic:

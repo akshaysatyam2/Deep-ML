@@ -4,10 +4,10 @@
 **Topic:** Linear Algebra  
 **Link:** [https://www.deep-ml.com/problems/4](https://www.deep-ml.com/problems/4)
 
-## Problem Description
+## Problem Statement
 Write a Python function that calculates the mean of a matrix either by row or by column, based on a given mode. The function should take a matrix (list of lists) and a mode ('row' or 'column') as input and return a list of means according to the specified mode.
 
-### Example:
+## Example
 **Input:**
 `matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]], mode = 'column'`
 
@@ -17,7 +17,7 @@ Write a Python function that calculates the mean of a matrix either by row or by
 **Reasoning:**
 Calculating the mean of each column results in `[(1+4+7)/3, (2+5+8)/3, (3+6+9)/3]`.
 
-## Solution Explanation
+## Code Explanation
 The provided solution iterates over the matrix based on the specified `mode` to calculate the mean.
 
 ### Logic:
