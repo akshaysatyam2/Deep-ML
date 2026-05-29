@@ -17,3 +17,4 @@ This repository is organized by problem. Each problem has its own dedicated fold
 - [Question 5: Scalar Multiplication of a Matrix](./Question_5)
 - [Question 6: Calculate Eigenvalues of a Matrix](./Question_6)
 - [Question 7: Matrix Transformation](./Question_7)
+- [Question 8: Calculate 2x2 Matrix Inverse](./Question_8)
